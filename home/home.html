@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Начало|Ветеринарна клиника Анимал 7</title>
+	<title>Начало|Ветеринарна клиника Пет Вет</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://use.fontawesome.com/9cc00cb22b.js"></script>
 </head>
 <body>
 	<div id="wrap">
@@ -11,17 +12,17 @@
 		<header>
 			<div id="caption">
 				<span id="logo">
-			<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="50" height="110"></a>
+			<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="100" height="100"></a>
 				</span>
 				<span id="title">
-			<a href="home.html"><h1>Ветеринарна клиника Анимал 7</h1></a>
+			<a href="home.html"><h1>Ветеринарна клиника Пет Вет</h1></a>
 				</span>
 			</div>
 			<div id="nav">
 				<ul>
 					<li><a href="home.html">НАЧАЛО</a></li>
-					<li><a href="..services/services.html">УСЛУГИ</a></li>
-					<li><a href="/contact/contact.html">СВЪРЖЕТЕ СЕ С НАС</a></li>
+					<li><a href="../services/services.html" target="_blank">УСЛУГИ</a></li>
+					<li><a href="../contact/contact.html" target="_blank">СВЪРЖЕТЕ СЕ С НАС</a></li>
 				</ul>
 			</div>
 		</header>
@@ -47,8 +48,8 @@
 				<h2>Спешна помощ</h2>
 			</div></a>
 		</aside>
-	</div>
-	<div id="register">
+		</div>
+		<div id="register">
 		<form action="" method="" class="register"> <h3>Запазете си час</h3>
 			<p>
 				<label for="names">
@@ -97,21 +98,22 @@
 			</p>
 			<a href="home.html"><input type="submit" value="изпращане" class="submit"></a>
 		</form>
-	</div>
+		</div>
 		<!-- end main -->
 		<!-- start footer -->
-	<footer>
+		<footer>
 		<div>
 			<h2>Нашата мисия</h2>
-			<p>През 2014 г. с много любов създадохме ветеринарна клиника „София” като първата по рода си „friendly” клиника, в която ветеринарно-медицинската грижа и приятелското отношение вървят ръка за ръка</p>
+			<p>Ние от Пет Вет държим ветеринарно-медицинската грижа и приятелското отношение  винаги да вървят ръка за ръка!</p>
 				
 		</div>
-		<div>
-			<img src="img/logo.jpg" width="100" height="110">
+		<div id="logo">
+			<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="100" height="100"></a>
 		</div>
-		<div>
+		<div id="survey">
 			<h2>Как научихте за клиниката?</h2>
 			<form>
+				<p>
 				<label for="friend">
 						<input type="radio" name="survey" id="friend" value="friend">Приятел/познат
 					</label> <br>
@@ -124,10 +126,16 @@
 					<label for="other">
 						<input type="radio" name="survey" id="other" value="other">Друго
 					</label>
+					</p>
+					<p>
+					<label for="submit">
+						<input type="submit" value="&#9755" id="submit">
+					</label>
+					</p>
 			</form>
 		</div>
-	</footer>
-	<!-- 	end footer -->
+		</footer>
+		<!-- 	end footer -->
 	</div>
 </body>
 </html>

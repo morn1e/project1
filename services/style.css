@@ -1,0 +1,147 @@
+body, header, main, aside, footer, div, section, article, p, form, label {
+	margin: 0;
+	padding: 0
+}
+body {
+	background-color: #FFF;
+}
+#wrap {
+	width: 1200px;
+	margin-left: 20px;
+}
+header {
+	position: relative;
+	background-color: #FFF;
+	height: 200px;
+}
+#caption {
+	position: absolute;
+	background-color: #FFF;
+	height: 60%;
+	width:100%;
+}
+ #caption a {
+	text-decoration: none;
+
+}
+#caption span{
+	display: inline-block;
+}
+
+#caption img {
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+h1 {
+	font-size: 32px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: #108E96;
+	width: 600px;
+}
+span#title {
+	position: absolute;
+	margin-left: 200px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+}	
+
+#nav a {
+	text-decoration: none;
+	color: #FFF;
+}
+#nav li {
+	display: inline-block;
+	list-style-type: none;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px;
+	margin: 0 10px;
+}
+#nav {
+	position: absolute;
+	height: 140px;
+	background-color: #1741AB;
+	width: 100%;
+	height:30%;
+	margin-top: 140px;
+}
+#nav ul {
+	margin-left: 600px;
+}
+#container {
+	position: relative;
+
+}
+
+main {
+	position: relative;
+	background-color: #D81A3E;
+	height: 650px;
+	width: 100%
+}
+main span a{
+	text-decoration: none;
+}
+main span {
+	position: absolute;
+	margin-top: 25px;
+	margin-left: 25px;
+}
+#row2 {
+	position: absolute;
+	top: 300px; 
+}
+main h2 {
+	background-color: #67BFC9;
+	width: 260px;
+	color: #FFF;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 18px;
+	padding: 5px;
+	font-weight: normal;
+	text-align: center;
+	margin-top: 0;
+}
+main img {
+	margin-bottom: 0;
+	width: 270px;
+	height: 230px;
+}
+main div {
+	display: inline-block;
+	margin: 5px;
+}
+footer {
+	position: relative;
+	background-color: #108E96;
+	height: 200px;
+	width: 1200px;
+}
+ footer h2 {
+ 	font-family: "Arial Black", Gadget, sans-serif;
+ 	font-size: 22px;
+ 	border-bottom: solid 1px;
+ 	border-color: #000;
+ 	color: #FFF;
+ }
+footer div {
+	position: absolute;
+	height: 100%;
+	width: 30%;
+	margin-left: 10px;
+}
+footer div#logo {
+	margin-top: 20px;
+	margin-left:500px;
+
+}
+footer div#survey {
+	margin-left: 750px;
+
+}
+footer #submit {
+	margin-top: 10px;
+	border-radius: 10px;
+}
