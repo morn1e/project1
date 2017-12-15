@@ -22,9 +22,9 @@ header {
 }
  #caption a {
 	text-decoration: none;
-
+	color: #108E96;
 }
-#caption span{
+#caption div{
 	display: inline-block;
 }
 
@@ -39,7 +39,7 @@ h1 {
 	color: #108E96;
 	width: 600px;
 }
-span#title {
+div#title {
 	position: absolute;
 	margin-left: 200px;
 	margin-bottom: 10px;
@@ -81,10 +81,11 @@ main {
 	height: 650px;
 	width: 100%
 }
-main span a{
+main div a{
 	text-decoration: none;
+	color: #FFF;
 }
-main span {
+main section {
 	position: absolute;
 	margin-top: 25px;
 	margin-left: 25px;
@@ -132,7 +133,7 @@ footer div {
 	width: 30%;
 	margin-left: 10px;
 }
-footer div#logo {
+footer div#pic {
 	margin-top: 20px;
 	margin-left:500px;
 

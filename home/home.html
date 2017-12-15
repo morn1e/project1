@@ -4,19 +4,18 @@
 	<title>Начало|Ветеринарна клиника Пет Вет</title>
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src="https://use.fontawesome.com/9cc00cb22b.js"></script>
 </head>
 <body>
 	<div id="wrap">
 		<!-- start header -->
 		<header>
 			<div id="caption">
-				<span id="logo">
-			<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="100" height="100"></a>
-				</span>
-				<span id="title">
-			<a href="home.html"><h1>Ветеринарна клиника Пет Вет</h1></a>
-				</span>
+				<div id="logo">
+					<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="100" height="100"></a>
+				</div>
+				<div id="title">
+					<h1><a href="home.html">Ветеринарна клиника Пет Вет</a></h1>
+				</div>
 			</div>
 			<div id="nav">
 				<ul>
@@ -28,86 +27,93 @@
 		</header>
 		<!-- end header -->
 		<!-- start main -->
-	 <div id="container">
-		<main>
-			<p id="moto">
+		<div id="container">
+			<main>
+				<p id="moto">
 				Защото ни е грижа!
-			</p>
-		</main>
-		<aside>
-			<a href="index.html"><div>
-				<img src="img/consult.jpg" alt="Ветеринарна консултация" width="300" height="250">
-				<h2>Прегледи и консултации</h2>
-			</div> </a>
-				<a href="index.html"><div>
-				<img src="img/lab.jpg" alt="Лабораторни изследвания" width="300" height="250">
-				<h2>Лабораторни изследвания</h2>
-			</div></a>
-				<a href="index.html"><div>
-				<img src="img/petaid.jpg" alt="Куче с аптечка" width="300" height="250">
-				<h2>Спешна помощ</h2>
-			</div></a>
-		</aside>
+				</p>
+			</main>
+			<aside>
+				<a href="index.html">
+					<div>
+						<img src="img/consult.jpg" alt="Ветеринарна консултация" width="300" height="250">
+						<h2>Прегледи и консултации</h2>
+					</div> 
+				</a>
+				<a href="index.html">
+					<div>
+						<img src="img/lab.jpg" alt="Лабораторни изследвания" width="300" height="250">
+						<h2>Лабораторни изследвания</h2>
+					</div>
+				</a>
+				<a href="index.html">
+					<div>
+						<img src="img/petaid.jpg" alt="Куче с аптечка" width="300" height="250">
+						<h2>Спешна помощ</h2>
+					</div>
+				</a>
+			</aside>
 		</div>
 		<div id="register">
-		<form action="" method="" class="register"> <h3>Запазете си час</h3>
-			<p>
-				<label for="names">
-					<input type="text" name="names" placeholder="Вашите имена*" value="" id="names" required>
-				</label>
-			</p>
-			<p>
-				<label for="email">
-					<input type="text" name="email" placeholder="Вашата ел. поща*" value="" id="email" required>
-				</label>
-				<label for="tel">
-				<input type="text" name="tel" placeholder="Вашият телефонен номер*" value="" id="tel" required>
-				</label>
-			</p>
-			<p>
-				<label for="day">
-						<select id="day" name="day">
-						<option value="" selected>Ден за посещение</option>
-						<option value="1">Понеделник</option>
-						<option value="2">Вторник</option>
-						<option value="3">Сряда</option>
-						<option value="4">Четвъртък</option>
-						<option value="5">Петък</option>
-						<option value="6">Събота</option>
+			<form action="/action_page.php" method="get" class="register"> <h3>Запазете си час</h3>
+				<p>
+					<label for="names">
+						<input type="text" name="names" placeholder="Вашите имена*" value="" id="names" required>
 					</label>
-				</select>
-				<label for="hour">
-					<select id="hour" name="hour">
-						<option value="" selected>Час за посещение</option>
-						<option value="1">9:00</option>
-						<option value="2">10:00</option>
-						<option value="3">11:00</option>
-						<option value="4">13:00</option>
-						<option value="5">14:00</option>
-						<option value="6">15:00</option>
-						<option value="7">16:00</option>
-						<option value="8">17:00</option>
-						<option value="9">18:00</option>
-					</select>
+				</p>
+				<p>
+					<label for="email">
+						<input type="text" name="email" placeholder="Вашата ел. поща*" value="" id="email" required>
+					</label>
+					<label for="tel">
+						<input type="text" name="tel" placeholder="Вашият телефонен номер*" value="" id="tel" required>
+					</label>
+				</p>
+				<p>
+					<label for="day">
+						<select id="day" name="day">
+							<option value="" selected>Ден за посещение</option>
+							<option value="1">Понеделник</option>
+							<option value="2">Вторник</option>
+							<option value="3">Сряда</option>
+							<option value="4">Четвъртък</option>
+							<option value="5">Петък</option>
+							<option value="6">Събота</option>
+						</select>
+					</label>
+					<label for="hour">
+						<select id="hour" name="hour">
+							<option value="" selected>Час за посещение</option>
+							<option value="1">9:00</option>
+							<option value="2">10:00</option>
+							<option value="3">11:00</option>
+							<option value="4">13:00</option>
+							<option value="5">14:00</option>
+							<option value="6">15:00</option>
+							<option value="7">16:00</option>
+							<option value="8">17:00</option>
+							<option value="9">18:00</option>
+						</select>
+					</label>
+				</p>
+				<p id="reminder">
+				<label for="remind">
+					<input type="checkbox" name="reminder" value="yes" id="remind"> Желая да получа SMS напомняне!
 				</label>
-			</p>
-			<p id="reminder">
-				<label for="reminder">
-					<input type="checkbox" name="reminder" value="yes"> Желая да получа SMS напомняне!
-				</label>
-			</p>
-			<a href="home.html"><input type="submit" value="изпращане" class="submit"></a>
-		</form>
+				</p>
+				<input type="submit" value="изпращане" class="submit">
+			</form>
 		</div>
 		<!-- end main -->
 		<!-- start footer -->
 		<footer>
 		<div>
 			<h2>Нашата мисия</h2>
-			<p>Ние от Пет Вет държим ветеринарно-медицинската грижа и приятелското отношение  винаги да вървят ръка за ръка!</p>
-				
+			<p>
+				Ние от Пет Вет държим ветеринарно-медицинската грижа и приятелското отношение  винаги да вървят ръка за ръка!
+			</p>
 		</div>
-		<div id="logo">
+		<div id="pic">
 			<a href="home.html"><img src="img/logo.jpg" alt="Лого Анимал 7" width="100" height="100"></a>
 		</div>
 		<div id="survey">
@@ -129,13 +135,13 @@
 					</p>
 					<p>
 					<label for="submit">
-						<input type="submit" value="&#9755" id="submit">
+						<input type="submit" value="ok" id="submit">
 					</label>
 					</p>
 			</form>
 		</div>
 		</footer>
-		<!-- 	end footer -->
+		<!-- end footer -->
 	</div>
 </body>
 </html>

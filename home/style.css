@@ -24,7 +24,7 @@ header {
 	text-decoration: none;
 
 }
-#caption span{
+#caption div{
 	display: inline-block;
 }
 
@@ -39,7 +39,7 @@ h1 {
 	color: #108E96;
 	width: 600px;
 }
-span#title {
+div#title {
 	position: absolute;
 	margin-left: 200px;
 	margin-bottom: 10px;
@@ -91,6 +91,7 @@ p#moto {
 	margin-top: 150px;
 	margin-left: 70px;
 	text-align: center;
+	animation-name: flash;
 }
 aside {
 	background-color: #D81A3E	
@@ -179,7 +180,7 @@ footer div {
 	width: 30%;
 	margin-left: 10px;
 }
-footer div#logo {
+footer div#pic {
 	margin-top: 20px;
 	margin-left:500px;
 

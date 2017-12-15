@@ -24,7 +24,7 @@ header {
 	text-decoration: none;
 
 }
-#caption span{
+#caption div{
 	display: inline-block;
 }
 
@@ -41,7 +41,7 @@ h1 {
 h1, h2, h3 {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
-span#title {
+div#title {
 	position: absolute;
 	margin-left: 200px;
 	margin-bottom: 10px;
@@ -82,7 +82,6 @@ main {
 	background-image: url(img/map.jpg);
 	background-repeat: no-repeat;
     background-size: 100% 120%;
-	opacity: 0.5;
 	height: 350px;
 	width: 100%
 }
@@ -131,7 +130,7 @@ footer div {
 	width: 30%;
 	margin-left: 10px;
 }
-footer div#logo {
+footer div#pic {
 	margin-top: 20px;
 	margin-left:500px;
 
